@@ -1,6 +1,6 @@
 import React, {Component, useState} from "react";
 import '../styles/App.css';
-import Form from './Form.js';
+import Form from "./from";
 
 // class App extends Component {
 //     render() {
@@ -19,7 +19,7 @@ const App = () => {
 
     return(
         <div id="main">
-           {/* Do not remove the main div */}
+          
            <Form 
                 setAnswer = {setAnswer}
            />
